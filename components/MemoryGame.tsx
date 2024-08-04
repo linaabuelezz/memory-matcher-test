@@ -150,6 +150,7 @@ export default function MemoryGame() {
             <input
               type="text"
               placeholder="Name"
+              name="name"
               value={name}
               onChange={(e) => setName(e.target.value)}
               className="p-2 rounded-md"
@@ -160,6 +161,7 @@ export default function MemoryGame() {
             <input
               type="email"
               placeholder="Email"
+              name="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               className="p-2 rounded-md"
