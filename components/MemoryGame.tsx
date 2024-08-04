@@ -124,7 +124,7 @@ export default function MemoryGame() {
     setAttempts(0);
     setSeconds(0);
     setGameStarted(false);
-    // location.reload();
+    location.reload();
   }
   
   useEffect(() => {
